@@ -12,7 +12,8 @@ public class Methods {
 	private String id;
 	private String mob_no;
 
-	public Methods(double balance, String name, long acc_no, String  id, String mob_no) {
+	
+      public Methods(double balance, String name, long acc_no, String  id, String mob_no) {
 		super();
 		Methods.balance = balance;
 		this.name = name;
